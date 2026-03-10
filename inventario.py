@@ -1,16 +1,26 @@
-# Programa de inventario
-#empezamos dandole la bievenida al usuario alprograma 
+#Programa de inventario
+
+#Empezamos dandole la bievenida al usuario al programa 
+
 print("bienvenido al sistema de inventario")
 
-#continuamos pidiendole los datos del producto al usuario(nombre del producto, precio y cantidad)
+#Continuamos pidiendole los datos del producto al usuario(nombre del producto, precio y cantidad)
+
+
 nombre=input("nombre del producto : ")
-#usamos el while true en esta posicion para que en caso de que el usuario ingrese un valor no valido para el precio o la cantidad,
-# se le pedira que ingrese un valor valido sin tener que volver a ingresar el nombre del producto.
+
+
+#Usamos el while true en esta posicion para que en caso de que el usuario ingrese un valor no valido para el precio o la cantidad,
+#Se le pedira que ingrese un valor valido sin tener que volver a ingresar el nombre del producto.
+
+
 while True:
     precio=float(input("Ingrese el precio del producto: $ "))
     cantidad=int(input("Ingrese la cantidad del producto: $ "))
-     #colocamos condiciones que queremos que se cumplan, en este caso que el precio y la cantidad sean numeros positivos, 
-    # si no se cumplen se le dara un mensaje de error al usuario y se le pedira que ingrese un valor valido.
+
+    #Colocamos condiciones que queremos que se cumplan, en este caso que el precio y la cantidad sean numeros positivos, 
+    #Si no se cumplen se le dara un mensaje de error al usuario y se le pedira que ingrese un valor valido.
+
     if precio < 0:
         print("Error: El precio y la cantidad deben ser números positivos.ejemplo(1, 2, 3...)")
         print("Por favor, ingrese un precio válido.")
@@ -18,7 +28,10 @@ while True:
         print("Error: El precio y la cantidad deben ser números positivos.(ejemplo: 1, 2, 3...)")
         print("Por favor, ingrese una cantidad válida.")
         break
-    # si se cumplen las condiciones Y el numero ingrsado es positivo, se le mostrara el total del inventario y los datos del producto ingresados por el usuario.
+
+    #Si se cumplen las condiciones Y el numero ingrsado es positivo, se le mostrara el total del inventario y los datos del producto ingresados por el usuario.
+
+
     else:
         costo_total=precio*cantidad
         print("El total del inventario es: $", costo_total)
