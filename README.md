@@ -1,5 +1,9 @@
 # proyecto_grupal_1
 # Inventario-de-productos
+# Coders: 
+- Yaila Ustate
+- William Racine
+- Hector Carvajal
 ## Descripcion
 Este programa de consola en lenguaje "Python" permite registrar productos ingresando su "nombre, precio y cantidad."  
 El sistema funciona mediante un menú en la terminal donde el usuario puede gestionar los productos del inventario.
