@@ -22,4 +22,4 @@ El sistema funciona mediante un menú en la terminal donde el usuario puede gest
 2. Abrir la terminal en la carpeta del proyecto
 3. Ejecutar el archivo principal
 
-diagrama : 
+## Diagrama  
