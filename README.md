@@ -28,4 +28,4 @@ El sistema funciona mediante un menú en la terminal donde el usuario puede gest
 3. Ejecutar el archivo principal
 
 ## Diagrama  
-![image alt] (https://github.com/hecarde2/proyecto_grupal_1/blob/bba1704b5f1fd2da6586b4c69ca11d41e3f112c5/Diagrama%20de%20inventario.drawio.png)
+![image alt](https://github.com/hecarde2/proyecto_grupal_1/blob/bba1704b5f1fd2da6586b4c69ca11d41e3f112c5/Diagrama%20de%20inventario.drawio.png)
