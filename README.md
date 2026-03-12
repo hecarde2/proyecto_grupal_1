@@ -4,6 +4,7 @@
 - Yaila Ustate
 - William Racine
 - Hector Carvajal
+## Link repositorio : https://github.com/hecarde2/proyecto_grupal_1.git
 ## Descripcion
 Este programa de consola en lenguaje "Python" permite registrar productos ingresando su "nombre, precio y cantidad."  
 El sistema funciona mediante un menú en la terminal donde el usuario puede gestionar los productos del inventario.
