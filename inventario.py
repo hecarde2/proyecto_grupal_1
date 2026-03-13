@@ -1,6 +1,6 @@
 #Programa de inventario
 
-#Empezamos dandole la bievenida al usuario al programa 
+#Empezamos dandole la bienvenida al usuario al programa 
 
 print("bienvenido al sistema de inventario")
 
@@ -16,7 +16,7 @@ nombre=input("nombre del producto : ")
 
 while True:
     precio=float(input("Ingrese el precio del producto: $ "))
-    cantidad=int(input("Ingrese la cantidad del producto: $ "))
+    cantidad=int(input("Ingrese la cantidad del producto:  "))
 
     #Colocamos condiciones que queremos que se cumplan, en este caso que el precio y la cantidad sean numeros positivos, 
     #Si no se cumplen se le dara un mensaje de error al usuario y se le pedira que ingrese un valor valido.
